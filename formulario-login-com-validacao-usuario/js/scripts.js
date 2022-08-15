@@ -20,6 +20,7 @@ function logar() {
 
     if(username == "teste" && password == "123") {
         alert("Sucesso!");
+        location.href = "home.html";
     }
     else {
         alert("Usuário ou senha incorretos");
